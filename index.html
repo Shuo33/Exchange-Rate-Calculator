@@ -14,8 +14,8 @@
     <p>Choose the currency and the amounts to get the exchange rate</p>
 
     <div class="container">
-        <div class="currency">
 
+        <div class="currency">
             <!-- currency one -->
             <select id="currentcy-one">
                 <option value="AED">AED</option>
@@ -72,15 +72,17 @@
                 <option value="ZAR">ZAR</option>
             </select>
             <input type="number" id="amount-one" placeholder="0" value="1">
+        </div>
 
-            <!-- swap rate -->
-            <div class="swap-rate-container">
-                <button class="btn" id="rate">
-                    Swap
-                </button>
-            </div>
+        <!-- swap rate -->
+        <div class="swap-rate-container">
+            <button class="btn" id="rate">
+                Swap
+            </button>
+        </div>
 
-            <!-- currency two -->
+        <!-- currency two -->
+        <div class="currency">
             <select id="currentcy-two">
                 <option value="AED">AED</option>
                 <option value="ARS">ARS</option>
@@ -137,6 +139,7 @@
             </select>
             <input type="number" id="amount-two" placeholder="0">
         </div>
+
     </div>
 
 </body>
